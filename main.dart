@@ -5,7 +5,7 @@ void main() {
 
   var myList = ["apple" , "banana", "pear"];
 
-  myList.forEach((item) { print("${myList.indexOf(item)} : $item") ; });
+  myList.forEach((item) => print("${myList.indexOf(item)} : $item"));
 
 }
 
